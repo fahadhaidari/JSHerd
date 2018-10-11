@@ -4,7 +4,7 @@ window.onload = () => {
   const quads = [];
   const size = 10;
   const rows = 100;
-  const cols = 20;
+  const cols = 40;
   const colors = ["black", "orange", "#0088FF"];
 
   context.translate(0, 0);
@@ -15,8 +15,8 @@ window.onload = () => {
   }
 
   const init = function() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = 800;
+    canvas.height = 600;
 
     // add quads
     for (let i = 0; i < rows; i ++) {
